@@ -28,4 +28,4 @@ Once you have created a `BCDate` instance, it internally stores two date values.
 1. Use `displayableLocalDate` property, if you intend to display the date
 2. Use `sendableUTCDate` property, if you intend to transfer the date to an *web api*
 
-You can also call `toString()` to retrieve string representation of ready to display date; and `toISOString()`to retrieve ISO-formatted string, ready to be sent to an *web api*
+You can also call `toString()` to retrieve string representation of ready to display date; and `toISOString()`to retrieve ISO-formatted string, ready to be sent to a *web api*.

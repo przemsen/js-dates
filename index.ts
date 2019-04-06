@@ -31,7 +31,7 @@ export class BCDate {
 
     static fromApiString(apiString : string) : BCDate {
         if (apiString.indexOf("T") < 0 || apiString.length !== 19) {
-            throw new Error("Only ISO string date format is supported in BCDate");
+            throw new Error("Only YYYY-MM-DDTHH:mm:ss string date format is supported in BCDate");
         } 
         var bcDate = new BCDate();
         bcDate._jsDateWithoutOffset = new Date(apiString);
